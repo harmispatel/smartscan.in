@@ -1,0 +1,101 @@
+.client-box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 30%);
+    position: relative;
+}
+
+.action-bt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* transform: translate(-50% , -50%); */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.client-box:hover .action-bt{
+    opacity: 1;
+    visibility: visible;
+}
+
+.shop_logo_name{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 20px;
+}
+
+.shop_logo_name img{
+    width: 50%;
+    height: auto;
+    margin-left: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 30%);
+    border: 1px solid gray;
+}
+
+.shop_logo_name h3{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.client-name h2{
+    font-size: 18px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.icon_right{
+    position: absolute;
+    top:50%;
+    right:10px;
+    transform: translate(0 , -50%);
+}
+
+/* .bg_login {
+    background: url('../../../admin_images/backgrounds/login_background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.clients-list{
+    position: absolute;
+    top:50%;
+    right:10px;
+    transform: translate(0 , -50%);
+    margin-right: 0!important;
+}
+
+/* Toggle Status Button */
+.form-check-input:checked{
+    background-color: #198754!important;
+    border-color: #198754!important;
+}
+.form-check-input{
+    background-color: #e47b86!important;
+    border-color: #e47b86!important;
+}
+.form-switch .form-check-input
+{
+    width: 45px!important;
+    height: 25px!important;
+}
+
+
+.edit-profile-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
